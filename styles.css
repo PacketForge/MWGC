@@ -661,7 +661,19 @@ footer {
         background-attachment: scroll;
         background-position: center;
         background-size: cover;
-        filter: brightness(1.5) contrast(1.2);
+    }
+    
+    /* Add blur to mobile hero background */
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        filter: blur(3px);
+        z-index: 0;
     }
     .hero h1 { font-size: 2.5rem; } /* Adjusted size */
     h2 { font-size: 2rem; } /* Fix long titles overflowing */
