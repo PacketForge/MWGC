@@ -707,6 +707,11 @@ footer {
         box-shadow: none;
         background: rgba(0,0,0,0.8);
     }
+    
+    /* Remove dark overlay on mobile to show background image */
+    .hero-overlay {
+        background: rgba(0,0,0,0.3);
+    }
 }
 
 @media (max-width: 600px) {
