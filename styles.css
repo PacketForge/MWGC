@@ -657,7 +657,7 @@ footer {
     .hero { 
         clip-path: none; 
         margin-bottom: 0; 
-        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/servicebackground.png');
+        background-image: url('images/servicebackground.png');
         background-attachment: scroll;
         background-position: center;
         background-size: cover;
