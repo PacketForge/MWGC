@@ -706,7 +706,7 @@ footer {
         border-left: none;
         border-top: 5px solid var(--accent-color);
         box-shadow: none;
-        background: rgba(0,0,0,0.8);
+        background: rgba(0,0,0,1);
     }
     
     /* Hide overlay completely on mobile to show background image */
