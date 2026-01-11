@@ -666,6 +666,11 @@ footer {
     h2 { font-size: 2rem; } /* Fix long titles overflowing */
     .grid-collage { display: flex; flex-direction: column; }
     
+    /* Fix gallery page header text overflow on mobile */
+    .page-header h1 {
+        font-size: 2.2rem !important;
+    }
+    
     .nav-links {
         display: none;
         position: absolute;
